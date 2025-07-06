@@ -36,7 +36,6 @@ class Solution {
 
 
 			"""Tests for Boolean logic and comparisons."""
-
 import subprocess
 
 from typing import Type
