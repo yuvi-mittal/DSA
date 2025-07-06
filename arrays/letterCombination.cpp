@@ -33,29 +33,6 @@ class Solution {
 
 
 
-lder],
-    lhs: bool,
-    op: str,
-    rhs: bool,
-    expected: str,
-) -> None:
-    """Test literal Boolean AND/OR operations."""
-    builder = builder_class()
-    module = builder.module()
-
-    # build the ASTx expression: (lhs && rhs) or (lhs || rhs)
-    left = astx.LiteralBoolean(lhs)
-    right = astx.LiteralBoolean(rhs)
-    expr = astx.BinaryOp(op, left, right)
-
-    proto = astx.FunctionPrototype(
-        name="main",
-        args=astx.Arguments(),
-        return_type=astx.Boolean(),
-    )
-    block = astx.Block()
-    block.append(astx.FunctionReturn(expr))
-    fn = astx.FunctionDef(prototype=proto, body=block)
     module.block.append(fn)
 
     success = True
