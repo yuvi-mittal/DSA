@@ -35,20 +35,6 @@ class Solution {
 
 
 
-			"""Tests for Boolean logic and comparisons."""
-import subprocess
-
-from typing import Type
-
-import astx
-import pytest
-
-from irx.builders.base import Builder
-from irx.builders.llvmliteir import LLVMLiteIR
-
-from .conftest import check_result
-
-
 @pytest.mark.parametrize(
     "lhs,op,rhs,expected",
     [
