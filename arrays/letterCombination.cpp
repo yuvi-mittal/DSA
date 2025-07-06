@@ -33,29 +33,7 @@ class Solution {
 
 
 
-
-
-@pytest.mark.parametrize(
-    "lhs,op,rhs,expected",
-    [
-        (True, "&&", True, "1"),
-        (True, "&&", False, "0"),
-        (False, "&&", True, "0"),
-        (False, "&&", False, "0"),
-        (True, "||", True, "1"),
-        (True, "||", False, "1"),
-        (False, "||", True, "1"),
-        (False, "||", False, "0"),
-    ],
-)
-@pytest.mark.parametrize(
-    "builder_class",
-    [
-        LLVMLiteIR,
-    ],
-)
-def test_boolean_operations(
-    builder_class: Type[Builder],
+lder],
     lhs: bool,
     op: str,
     rhs: bool,
