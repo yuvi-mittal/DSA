@@ -24,7 +24,7 @@ class Solution {
 			 if (digits.empty()){
 					 return ans;
 				}
-			string mapping[10] = {"" , "", "abc" , "def", "ghi" , "jkl" ,   "mno",            "pqrs" ,"tuv" ,"wxyz"};
+			string mapping[10] = {"" , "", "abc" , "def", "ghi" , "jkl" , "mno", "pqrs" ,"tuv" ,"wxyz"};
 	
 			solve(ans,output, digits, index , mapping);
 	
