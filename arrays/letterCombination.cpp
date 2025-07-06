@@ -33,23 +33,6 @@ class Solution {
 
 
 
-    module.block.append(fn)
-
-    success = True
-    try:
-        check_result("build", builder, module, expected_output=expected)
-    except subprocess.CalledProcessError as e:
-        success = False
-        assert e.returncode == int(expected)
-    assert not success
-
-
-@pytest.mark.parametrize(
-    "int_type,literal_type",
-    [
-        (astx.Int8, astx.LiteralInt8),
-        (astx.Int16, astx.LiteralInt16),
-        (astx.Int32, astx.LiteralInt32),
         (astx.Int64, astx.LiteralInt64),
     ],
 )
