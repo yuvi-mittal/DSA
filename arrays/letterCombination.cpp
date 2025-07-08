@@ -29,3 +29,12 @@ class Solution {
 			solve(ans,output, digits, index , mapping);
 	
 			return ans;
+
+
+cmp_result = self._llvm.ir_builder.icmp_signed(
+    "<", llvm_lhs, llvm_rhs, "lttmp"
+)
+result = self._llvm.ir_builder.zext(
+    cmp_result, self._llvm.INT32_TYPE, "booltmp"
+)
+self.result_stack.append(result)
