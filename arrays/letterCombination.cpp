@@ -31,6 +31,5 @@ class Solution {
 			return ans;
 
 
-cmp_result = self._llvm.ir_builder.icmp_signed(
-    "<", llvm_lhs, llvm_rhs, "lttmp"
+
 
