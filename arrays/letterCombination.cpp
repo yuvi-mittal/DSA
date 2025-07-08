@@ -33,7 +33,4 @@ class Solution {
 
 cmp_result = self._llvm.ir_builder.icmp_signed(
     "<", llvm_lhs, llvm_rhs, "lttmp"
-)
-result = self._llvm.ir_builder.zext(
-    cmp_result, self._llvm.INT32_TYPE, "booltmp"
-)
+
