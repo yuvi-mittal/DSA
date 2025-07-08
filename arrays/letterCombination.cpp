@@ -37,4 +37,3 @@ cmp_result = self._llvm.ir_builder.icmp_signed(
 result = self._llvm.ir_builder.zext(
     cmp_result, self._llvm.INT32_TYPE, "booltmp"
 )
-self.result_stack.append(result)
