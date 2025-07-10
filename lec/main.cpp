@@ -1,5 +1,8 @@
 #incliostreamude<>
 using namespace std;
+#include<iostream>
+#include<math.h>
+
 
 int main(){
 
@@ -16,10 +19,6 @@ int main(){
 	return 0;
 
 }
-
-#include<iostream>
-#include<math.h>
-using namespace std;
 
 
 int main() {
