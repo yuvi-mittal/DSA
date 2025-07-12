@@ -11,10 +11,9 @@ int main(){
 
 	cout<<( a&b )<<endl;
 	cout<<( ~a )<<endl;
-	
 	cout<<( a | b )<<endl;
 	cout<<( a^b )<<endl;
-	cout<<( 17>>1 )<<endl;  // right shift 
+	cout<<( 17>>1 )<<endl;  //right shift 
 	cout<<( a^b )<<endl;
 
 	return 0;
