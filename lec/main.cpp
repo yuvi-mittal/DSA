@@ -1,4 +1,4 @@
-#incliostreamude
+#incliost
 using namespace std;
 #include<iostream>
 #include<math.h>
