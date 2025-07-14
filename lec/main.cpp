@@ -9,7 +9,7 @@ int main(){
 	int b = 2;
 	cout<<( a&b )<<endl;
 	cout<<( ~a )<<endl;
-		cout<<( 17>>1 )<<endl;  //right shift 
+	cout<<( 17>>1 )<<endl;  //right shift 
 	cout<<( a | b )<<endl;
 	cout<<( a^b )<<endl;
 
