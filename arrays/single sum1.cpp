@@ -5,6 +5,7 @@ public:
         for (int num : nums) {
             freq[num]++;
         }
+        
         for (auto& pair : freq) {
             if (pair.second == 1)
                 return pair.first;
