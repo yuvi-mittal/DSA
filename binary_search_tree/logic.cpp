@@ -35,8 +35,8 @@ node* build(node* root){
 
 	return root;
 
-
 }
+
 
 int main(){
 
