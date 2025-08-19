@@ -33,8 +33,6 @@ void levelOrderTraversal(Node* root){
 
 		q.pop();
 	}
-
-
 }
 
 int main() {
